@@ -124,6 +124,7 @@ body {
 
 /* third */
 .third {
+  margin-top: 50px;
   height: 429px;
   width: 1440px;
   display: flex;
@@ -166,59 +167,50 @@ body {
 }
 /* fourth */
 .fourth {
-  height: 946px;
+  margin-top: 20px;
+  margin-bottom: 500px;
+  height: 500px;
   width: 1440px;
-  display: flex;
+  display: grid;
   padding: 42px 24px;
-  flex-direction: column;
   align-items: center;
   justify-items: center;
-  gap: 82px;
-  align-self: stretch;
+  gap: 80px;
 }
 .work-div {
-  height: 400px;
-  width: 240px;
-  display: flex;
-  min-width: 420px;
-  flex-direction: column;
-  align-items: flex-start;
+  height: 311px;
+  display: grid;
+
   gap: 24px;
-  flex: 1 0 0;
-  text-align: center;
 }
 
 .work-div img {
-  height: 290px;
+  height: 328px;
 }
 .work-div h6 {
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
-  line-height: 30px;
+  line-height: 15px;
 }
 .work-div p {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 27px;
+  line-height: 15px;
 }
 
 .img-div {
-  display: flex;
-  gap: 29px;
-}
-
-.grid {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  margin-left: 95px;
+  height: 850px;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 /* testimonial */
 
 .main_test {
+  margin-top: 20px;
   height: 768px;
   width: 1440px;
   display: flex;
@@ -230,12 +222,10 @@ body {
 }
 
 .testimonial {
-  height: 311px;
-  width: 150px;
-  display: flex;
+  display: grid;
   min-width: 360px;
   padding: 42px;
-  flex-direction: column;
+
   align-items: flex-start;
   gap: 68px;
   flex: 1 0 0;
@@ -271,14 +261,12 @@ body {
 }
 
 .test-grid {
-  display: flex;
-  gap: 84px;
+  height: 311px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
 }
-.test-body {
-  display: flex;
-  flex-direction: column;
-  gap: 84px;
-}
+
 .testimonial-down {
   display: flex;
   gap: 15px;
